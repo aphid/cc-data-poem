@@ -11,16 +11,16 @@
     ],
     "instructions": [
         "* Familiarize yourself with the rules of JSON; there are multiple kinds of information that can be stored in it: strings, dates, booleans, objects, and arrays. Some of these can nest (arrays of objects, objects containing arrays and other objects).",
-        "* Familiarize yourself with some data 'in the wild'. While visiting sites, open the network tab of your browser's developer tools and look for requests that include JSON (see: https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor ; JSON will be listed as type 'js' and can often be found under XHR requests). Depending on the site, some of this is the the site transfering data to put on the page, things you've requested; some of it might be about you.",
-        "There are a few examples of JSON in the JSON_examples.md file in this repository. Feel free to add more using a pull request.",
-        "Write a poem using JSON. You can quote structural or informational data from the examples provided or from others youve already encountered or seek out. The poem should be valid data, which means you cannot use the same key twice in the same object. Try experimenting with structure. Is an empty object ({}), string (\"\"), or array ([]) like an ellipsis (...)? While this assignment should broadly respond to larger themes of datification, data bodies, and dataveillance, it need not explicitly critique the structure and/or content you are using."
+        "* Familiarize yourself with some JSON-formatted data in the world. While visiting sites, open the network tab of your browser's developer tools and look for requests that include JSON (see: https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor ; JSON will be listed as type 'js' and can often be found under XHR requests). Depending on the site, some of this is the the site transfering data to put on the page, things you've requested; some of it might be about you.",
+        "* There are a few examples of JSON in the JSON_examples.md file in this repository. Feel free to add more using a pull request.",
+        "* Write a poem using JSON. You can quote structural or informational data from the examples provided or from others youve already encountered or seek out. The poem should be valid data, which means you cannot use the same key twice in the same object. Try experimenting with structure. Is an empty object ({}), string (\"\"), or array ([]) like an ellipsis (...)? While this assignment should broadly respond to larger themes of datification, data bodies, and dataveillance, it need not explicitly critique the structure and/or content you are using."
     ],
     "notes": {
-        "description": "Some inspiration from those who have responded to this in the past.",
         "tips and ideas": [
-            "You can validate your JSON by pasting it into the textarea on jsonlint.com; in general it is not very secure to paste data into a third party site, but this one does not retain anything pasted into it."
+            "You can validate your JSON by pasting it into the textarea on jsonlint.com; in general it is not very secure to paste data into a third party site, but this one does not retain anything pasted into it.",
+            "Your poem doesn't need to be readable by people, and it doesn't need to be easy for someone writing a parser to make sense of."
         ],
-        "examples and inspiration": [
+        "examples and inspiration from previous data poets": [
             "Use data produced by facial recognition to respond gendered expectations that you should smile more.",
             "Weave texts about opacity, invisibility, and resistance into questions from an apartheid census.",
             "Write a love poem using USGS earthquake GEOJSON as a model."
