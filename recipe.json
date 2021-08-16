@@ -1,0 +1,43 @@
+{
+    "title": "writing data against the grain",
+    "keywords": [
+        "data",
+        "poem",
+        "json"
+    ],
+    "short description": [
+        "One condition of contemporary life in a technical society is being the object of data. Critical data studies and critical algorithm studies scholars have provided useful methodologies for examining these conditions, in particular how algorithms and the data they ingest and express often fortify extant systems of white supremacy, carcerality, patriarchy, and settler-colonialism. This is deeply important work, and establishing literacy in <em>reading</em> data is a useful skill for decoding (in order to understand and in order to abolish) these systems. 'Reading' data against the grain means reading for and beyond technicity, for the absence of what was overlooked or didn't fit the model, for institutional context and work that happens below the water line.",
+        "But we are also already writers of data and metadata. We often do this unconsciously: even triggering the proximity sensor on a mobile device is an act of writing metadata. It is rare to hand-write (or even type) data as an intentional act, and even then it is often within the constraints of standards and particular specs, within largely quantized systems that are structured by what is capable of being measured. This prompt asks you to consider data as a creative medium that can respond to these conditions."
+    ],
+    "instructions": [
+        "* Familiarize yourself with the rules of JSON; there are multiple kinds of information that can be stored in it: strings, dates, booleans, objects, and arrays. Some of these can nest (arrays of objects, objects containing arrays and other objects).",
+        "* Familiarize yourself with some data 'in the wild'. While visiting sites, open the network tab of your browser's developer tools and look for requests that include JSON (see: https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor ; JSON will be listed as type 'js' and can often be found under XHR requests). Depending on the site, some of this is the the site transfering data to put on the page, things you've requested; some of it might be about you.",
+        "There are a few examples of JSON in the JSON_examples.md file in this repository. Feel free to add more using a pull request.",
+        "Write a poem using JSON. You can quote structural or informational data from the examples provided or from others youve already encountered or seek out. The poem should be valid data, which means you cannot use the same key twice in the same object. Try experimenting with structure. Is an empty object ({}), string (\"\"), or array ([]) like an ellipsis (...)? While this assignment should broadly respond to larger themes of datification, data bodies, and dataveillance, it need not explicitly critique the structure and/or content you are using."
+    ],
+    "notes": {
+        "description": "Some inspiration from those who have responded to this in the past.",
+        "tips and ideas": [
+            "You can validate your JSON by pasting it into the textarea on jsonlint.com; in general it is not very secure to paste data into a third party site, but this one does not retain anything pasted into it."
+        ],
+        "examples and inspiration": [
+            "Use data produced by facial recognition to respond gendered expectations that you should smile more.",
+            "Weave texts about opacity, invisibility, and resistance into questions from an apartheid census.",
+            "Write a love poem using USGS earthquake GEOJSON as a model."
+        ]
+    },
+    "license": "I release this proposal to the public domain (cc-0).",
+    "long description": [
+        "I offer this recipe to anyone teaching or learning critical theories and/or practices of data, the technical codes (and cultural coding) that (re)produce and process it and release all of its associated materials to the public domain.",
+        "This project is an extension of an assignment I originally developed for an introductory course in digital media production focused on web/browser-based technologies. In this class, most of the students have no prior experience with programming. Within the arc of the course, the goal of this assignment was to build some familiarity with the basic structures of JSON before working with found data, and to encourage students to approach new formats with both a critical sensibility and as potential creative mediums before getting into situations where they're simply trying to make something work (which is so much of the time spent programming).",
+        "I have also found this project to be generative in more theory-driven courses: a humanities course on Data and Democracy and a senior seminar on media theories of platforms, infrastructures, and resistances. Beginning a critical inquiry about data from a position of creative agency gives students some important tools with which to respond to conditions that often feel (because they are!) disempowering.",
+        "In both production-focused and theory-focused courses, I pair this assignment with readings that bring critical feminist and abolitionist approaches to thinking about, with, and against data. I have included a few of these below. "],
+
+    
+   "Further readings": ["D’Ignazio, Catherine, and Lauren F. Klein. Data Feminism. Strong Ideas Series. Cambridge, Massachusetts: The MIT Press, 2020.",
+   "Ọnụọha, Mimi. On Missing Data Sets, 2016. https://github.com/MimiOnuoha/missing-datasets.",
+   "Raley, Rita. “Dataveillance and Countervailance.” In Raw Data Is an Oxymoron, edited by Lisa Gitelman, 2012.",
+   "Steyerl, Hito. “A Sea of Data: Apophenia and Pattern (Mis- )Recognition.” E-Flux 72 (April 2016)",
+   "“This Is a Story About Nerds and Cops’: PredPol and Algorithmic Policing.” E-Flux 87 (December 2017)",
+   "Zwart, Hans de. “During World War II, We Did Have Something to Hide.” Medium (blog), April 30, 2015. https://medium.com/@hansdezwart/during-world-war-ii-we-did-have-something-to-hide-40689565c550."]
+}
