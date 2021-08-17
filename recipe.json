@@ -26,7 +26,7 @@
             "Write a love poem using USGS earthquake GEOJSON as a model."
         ]
     },
-    "license": "I release this proposal to the public domain (cc-0).",
+    "license": "I release this text to the public domain (cc0)",
     "long description": [
         "I offer this recipe to anyone teaching or learning critical theories and/or practices of data, the technical codes (and cultural coding) that (re)produce and process it and release all of its associated materials to the public domain.",
         "This project is an extension of an assignment I originally developed for an introductory course in digital media production focused on web/browser-based technologies. In this class, most of the students have no prior experience with programming. Within the arc of the course, the goal of this assignment was to build some familiarity with the basic structures of JSON before working with found data, and to encourage students to approach new formats with both a critical sensibility and as potential creative mediums before getting into situations where they're simply trying to make something work (which is so much of the time spent programming).",
